@@ -3,11 +3,11 @@ import { DECREMENT } from "../types";
 
 export const increment = (number) => ({
     type: INCREMENT,
-    number //NUMBER
+    payload:number//NUMBER
 })
 
 export const decrement = (number) => ({
     type: DECREMENT,
-    number
+    payload:number
 })
 
